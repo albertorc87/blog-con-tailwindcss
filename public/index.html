@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gray-900 shadow-md">
+        <nav class="flex justify-between items-center text-gray-200 px-4 shadow-md sm:py-4 sm:justify-around">
+            <div class="sm:hidden text-2xl">&equiv;</div>
+            <ul class="hidden sm:flex justify-between w-64">
+                <li>
+                    <a href="http://">Inicio</a>
+                </li>
+                <li>
+                    <a href="http://">Categorías</a>
+                </li>
+                <li>
+                    <a href="http://">Acerca de mi</a>
+                </li>
+            </ul>
+            <ul class="flex justify-between w-20">
+                <li>
+                    <a href="http://">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <i class="fas fa-rss"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="bg-white text-center">
+            <div class="text-6xl font-bold">
+                MiBlog
+            </div>
+            <h1 class="text-gray-700 text-xl pb-4">Maquetando con TailwindCSS</h1>
+        </div>
+    </header>
+    <div class="content mt-10 md:flex justify-center">
+        <div class="articulos max-w-full flex-row justify-center mb-8 md:mr-2">
+            <article class="text-center bg-white shadow-md mb-4">
+                <a class="block mb-4" href="http://">
+                    <img class="w-auto mb-4 inline" src="images/post3.jpg" alt="">
+                    <h2 class="text-2xl font-bold">Título del post número tres</h2>
+                    <time class="text-gray-500" datetime="2020-09-05">Hace dos días</time>
+                </a>
+                <div class="footer-article flex w-full">
+                    <a href="http://">
+                        <i class="fas fa-heart"></i> 58
+                    </a>
+                    <a href="http://">
+                        <i class="fas fa-comments"></i> 11
+                    </a>
+                    <a href="http://">
+                        <i class="fas fa-eye"></i> 120
+                    </a>
+                </div>
+            </article>
+            <article class="text-center bg-white shadow-md mb-4">
+                <a class="block mb-4" href="http://">
+                    <img class="w-auto mb-4 inline" src="images/post2.jpg" alt="">
+                    <h2 class="text-2xl font-bold">Título del post número dos</h2>
+                    <time class="text-gray-500" datetime="2020-09-05">Hace dos días</time>
+                </a>
+                <div class="footer-article flex w-full">
+                    <a href="http://">
+                        <i class="fas fa-heart"></i> 58
+                    </a>
+                    <a href="http://">
+                        <i class="fas fa-comments"></i> 11
+                    </a>
+                    <a href="http://">
+                        <i class="fas fa-eye"></i> 120
+                    </a>
+                </div>
+            </article>
+
+            <article class="text-center bg-white shadow-md mb-4">
+                <a class="block mb-4" href="http://">
+                    <img class="w-auto mb-4 inline" src="images/post1.jpg" alt="">
+                    <h2 class="text-2xl font-bold">Título del post número uno</h2>
+                    <time class="text-gray-500" datetime="2020-09-05">Hace dos días</time>
+                </a>
+                <div class="footer-article flex w-full">
+                    <a href="http://">
+                        <i class="fas fa-heart"></i> 58
+                    </a>
+                    <a href="http://">
+                        <i class="fas fa-comments"></i> 11
+                    </a>
+                    <a href="http://">
+                        <i class="fas fa-eye"></i> 120
+                    </a>
+                </div>
+            </article>
+        </div>
+
+        <section>
+            <div class="popular-posts text-center  bg-white border-gray-300 mb-4 pb-4 md:w-64 shadow-md">
+                <div>
+                    <h3 class="font-bold text-2xl text-gray-900 border-b-2 border-gray-100 p-2 mb-2">Más leídos</h3>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="http://">Título del post 1</a>
+                        </li>
+                        <li>
+                            <a href="http://">Título del post 2</a>
+                        </li>
+                        <li>
+                            <a href="http://">Título del post 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="text-center text-white bg-teal-900 py-4">
+        <ul class="md:flex justify-center">
+            <li><a href="http://">Hola</a></li>
+            <li><a href="http://">Privacidad</a></li>
+            <li><a href="http://">Términos y condiciones</a></li>
+            <li>&#174; 2020 Mi blog con TailwindCSS ♥</li>
+        </ul>
+    </footer>
+</body>
+</html>
