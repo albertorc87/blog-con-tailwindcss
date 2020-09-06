@@ -15,3 +15,5 @@ Si queremos realizar modificaciones en nuestros estilos y que se vean reflejados
 ```bash
 npm run dev
 ```
+
+Podéis ver el proyecto en vivo pinchando aquí [https://albertorc87.github.io/blog-con-tailwindcss/public/index.html](https://albertorc87.github.io/blog-con-tailwindcss/public/index.html)
